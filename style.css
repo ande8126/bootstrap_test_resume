@@ -1,0 +1,27 @@
+body {
+  font-family: Helvitica, sans-serif;
+}
+
+header {
+  padding: 30px 0;
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Cheltenham, Georgia, serif;
+  font-weight: 600;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
