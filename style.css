@@ -52,7 +52,7 @@ header p img {
   justify-content: center;
 }
 
-.container h2{
+.float-right h2{
   display: flex;
   justify-content: center;
   font-family: Lora, Georgia, serif;
