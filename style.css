@@ -4,6 +4,8 @@ body {
 
 header {
   padding: 10px 0;
+  
+  
 }
 
 header .row{
@@ -13,7 +15,8 @@ header .row{
 
 header h1 {
   font-family: Lora, Georgia, serif;
-  font-weight: 500;
+  font-weight: 600;
+  justify-content: flex-start;
 }
 
 header nav {
@@ -25,3 +28,40 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
+
+header p img {
+  width: 32px;
+  height: 32px;
+}
+
+.jumbotron{
+  display: flex;
+  background-image: url('https://i.imgur.com/7yIXFhl.jpg');
+  background-size: cover;
+  height: 800px;
+  justify-content: flex-end;
+}
+
+.jumbotron > div{
+  display: flex;
+  width: 40%;
+  border-radius: 25px;
+  background-color: rgba(21,37,31,.9);
+  color: #d3d3d3;
+  padding: 30px;
+  justify-content: flex-end;
+}
+
+.container h2{
+  display: flex;
+  justify-content: center;
+  font-family: Lora, Georgia, serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+
+
