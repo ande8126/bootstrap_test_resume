@@ -2,9 +2,16 @@ body {
   font-family: Arial, Helvitica, sans-serif;
 }
 
+a:link{
+  color: #d3d3d3;
+}
+
+a:visited{
+  color: #777777;
+}
+
 header {
   padding: 10px 0;
-  
   
 }
 
@@ -38,31 +45,41 @@ header p img {
   display: flex;
   background-image: url('https://i.imgur.com/7yIXFhl.jpg');
   background-size: cover;
-  height: 800px;
+  background-position: relative;
+  top: -150px;
+  height: 700px;
   justify-content: flex-end;
 }
 
-.jumbotron > div{
-  display: flex;
+.float-right{
+  display: block;
   width: 40%;
   border-radius: 25px;
   background-color: rgba(21,37,31,.9);
   color: #d3d3d3;
   padding: 30px;
-  justify-content: center;
+  align-items: center;
 }
 
-.float-right h2{
+.float-right p1{
   display: flex;
   justify-content: center;
+  list-style-type: none;
   font-family: Lora, Georgia, serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
+.float-right p2{
+  font-size: 16px;
+  text-align: left;
+}
 
-
+.float-right nav{
+  display:flex;
+  justify-content: center;
+}
 
 
 
