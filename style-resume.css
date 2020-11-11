@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvitica, sans-serif;
+}
+
+a:link {
+  color: #777777;
+}
+
+a:visited {
+  color: #d3d3d3;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Lora, Georgia, serif;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: flex-start;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  width: auto;
+}
+
+.jumbotron {
+  display: flex;
+  background-image: url('https://i.imgur.com/7yIXFhl.jpg');
+  background-size: cover;
+  background-position: center, center;
+  height: 700px;
+  justify-content: flex-end;
+  margin-top: 0px;
+  padding: 1rem;
+}
+
+.jumbotron .container {
+  display: block;
+  padding: 2rem;
+  
+}
+
+.jumbotron .container .row {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgba(21,37,31,.96);
+  color: #d3d3d3;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.col-sm-3 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
+}
+
+.col-sm-3 img {
+  width: 100%;
+}
+
+.col-sm-7 {
+  display: block;
+  padding: 1rem;
+}
+
+.col-sm-7 h2{
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.col-sm-7 p1{
+  display: flex;
+  font-size: 16px;
+}
+
+.row text-left div {
+  display: flex;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: Lora, Georgia, serif;
+  font-size: 32;
+  border-bottom: solid;
+  border-color: #d3d3d3;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+p2 {
+  font-size: 16;
+  font-weight: 600;
+  padding: 0, 1rem;
+}
+
